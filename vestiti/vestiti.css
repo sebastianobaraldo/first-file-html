@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+margin: 0 auto;
+}
+
+
+.pricipale-1{
+    background-color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.levis-1{
+    height: 350px;
+    width: 250px;
+}
+
+.guess{
+    height: 350px;
+    width: 250px;
+}
+
+.vestito-verde{
+    height: 350px;
+    width: 250px;
+}
+
+.principale-2{
+    background-color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.levis-2{
+    height: 350px;
+    width: 250px;
+}
+
+.vestito-bianco{
+    height: 350px;
+    width: 250px;
+}
+
+.maglione-nero{
+    height: 350px;
+    width: 250px;
+}
+
+.sconto-1{
+    color: red;
+}
+
+.sconto-2{
+    color: red;
+}
+
+.sconto-3{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sconto-4{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.percentuale-30{
+    background-color: red;
+    border-style: 1px solid;
+    height: auto;
+    width: 40px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.percentuale-50{
+    background-color: red;
+    border-style: 1px solid;
+    height: auto;
+    width: 40px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sostenibilita{
+    background-color: green;
+    border-style: 1px solid;
+    height: auto;
+    width: 82px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.offerta-1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 340px;
+    background-color: transparent;
+}
+
+.offerta-2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: -140px;
+}
+
+.offerta-3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 340px;
+}
+
+.offerta-4{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 340px;
+}
+
+.offerta-5{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: -140px;
+}
+
+
+.immagine1 {
+    display: block;
+}
+.immagine2 {
+    display: none;
+}
+#cambioimmagine:hover .immagine1 {
+   display: none;
+}
+#cambioimmagine:hover .immagine2 {
+   display: block;
+}
+
+.heart-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .heart-button:focus {
+    background-color: black;
+
+  }
+  
+  .heart-button:active {
+    background-color: black;
+  }
+
+  .pos-cuore{
+    position: absolute;
+    top: 30px;
+    left: 362px;
+  }
+
+  .pos-cuore-2{
+    position: absolute;
+    top: 30px;
+    left: 855px;
+  }
+
+  .pos-cuore-3{
+    position: absolute;
+    top: 30px;
+    right: 142px;
+  }
+
+  .pos-cuore-4{
+    position: absolute;
+    top: 530px;
+    left: 362px;
+  }
+
+  .pos-cuore-5{
+    position: absolute;
+    top: 530px;
+    left: 855px;
+  }
+
+  .pos-cuore-6{
+    position: absolute;
+    top: 530px;
+    right: 142px;
+  }
+
+@media screen and(min-width: 480px){
+    body{
+        background-color: black;
+    }
+}

@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titolo {
+    background-color: #404eed;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.elenco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.elenco-1 {
+    height: auto;
+    width: auto;
+    padding: 5%;
+    background-color: #404eed;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login {
+    background-color: white;
+    color: black;
+    border-radius: 30%;
+    height: auto;
+    width: auto;
+    padding: 1%;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgContainer {
+    position: relative;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    background-color: #404eed;
+}
+
+.imgContainer img.sfondo {
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #404eed;
+}
+
+.imgContainer img.sopra {
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 44%;
+    left: 0;
+}
+
+.titolo-1 {
+    background-color: #404eed;
+    color: white;
+    font-size: 300%1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.parte-due {
+    background-color: #404eed;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+}
+
+.parte-sotto-1{
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    align-items: center;
+}
+
+.parte-sotto-2{
+    background-color: #f6f6f6;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    align-items: center;
+}
+
+.parte-sotto-3{
+    background-color: #f6f6f6;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scritte-2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5%;
+}
+
+.foot{
+    background-color: #23272a;
+    color: white1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 4%;
+    height: auto;
+    width: auto;
+}
+
+.elenco-2{
+color: white;
+padding-left: 3%;
+}
+
+.puntato{
+    color: #404eed;
+}
+
+hr{
+    background-color: #404eed;
+    color: #404eed;
+}
+
+@media (max-width: 1050px) {
+    a {
+        display: none;
+    }
+}
